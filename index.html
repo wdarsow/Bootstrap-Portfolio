@@ -8,35 +8,28 @@
         
         <title>Bootstrap-Portfolio</title>
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- Bootstrap's stylesheet -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">   
     
-        <!-- additional CSS stylesheet -->
+        <!-- supplemental CSS stylesheet -->
         <link rel="stylesheet" type="text/css" href="./style.css">
 
     </Head>
 
 <body>
     <div class="container">
-
         <nav class="navbar navbar-light">
-            <p class="navbar-text">Wade Darsow</p>
+            <h1 class="navbar-text">Wade Darsow</h1>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="about1"><a href="#">About</a></li>
+                <li class="portfolio1"><a href="portfolio.html">Portfolio</a></li>
+                <li class="contact1"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
 
         <div class="row">
             <div class="col-md-12">
-                <p>About Me</p>
+                <h3 class=aboutme1>About Me</h3>
             </div>
         </div>
         <div class="row">
@@ -50,23 +43,29 @@
                 </p>
             </div>
             <div class="col-md-4">
-                <h3>Connect with Me</h3>
-            </div>
-            <div class="col-md-4">
-                <div class="row">
-                    <div class="col-md-4">
-                        <p>picture 1</p>
+                <h3 class="connect1">Connect with Me</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="https://www.linkedin.com/in/wadedarsow/">
+                                <img src="./images/linkedin.png" alt="linkedin" width="50" height="50"></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://github.com/wdarsow">
+                                <img src="./images/github.png" alt="git hub" width="50" height="50"></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://stackoverflow.com/users/9286864/wade-darsow">
+                                <img src="./images/stackoverflow.png" alt="stackoverflow" width="50" height="50"></a>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <p>picture 2</p>
-                    </div>
-                    <div class="col-md-4">
-                        <p>picture 3</p>
-                    </div>
-                </div>
             </div>
         </div>
 
+        <div class="row">
+            <div class="col-md-12">
+                <p class="footer1">Copyright 2018 Wade Darsow</p>
+            </div>
+        </div>
     </div>
 
 </body>

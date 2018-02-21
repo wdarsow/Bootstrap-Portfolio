@@ -1,12 +1,63 @@
 
-.nav navbar-nav {
-    text-align: right;
+.navbar {
+    background-color: white;
+    border-bottom: 2px solid #cccccc;
+}
+
+.navbar-text {
+    background-color: #4aaaa5;
+    padding: 1%;
+    margin: 1%;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.navbar-right{
+    color: seagreen !important;
+    font-size: 16px;
+    margin-top: 1%;
+}
+
+.aboutme1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc; 
+    margin: 1%;
+}
+
+.connect1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5; 
+    text-align: center;
+
+}
+
+.container {
+    background-image: url("./images/intersection.png")
+}
+
+.row {
+    background-color: white;
+}
+
+.footer1 {
+    background-color: #666666;
+    text-align: center;
+    color: white;
+    border-top: 2px solid #4aaaa5;
 }
 
 /* comments
 
 body {
     background-color: red;
+}
+
+
+
+.about1 {
+    border-right: 1px solid #cccccc;
 }
 
 */
