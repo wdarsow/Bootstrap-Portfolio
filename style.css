@@ -30,7 +30,11 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5; 
     text-align: center;
+}
 
+.img-links1, .img-links2, .img-links3 {
+    text-align: center;
+    padding: 0px;
 }
 
 .container {
@@ -47,6 +51,68 @@
     color: white;
     border-top: 2px solid #4aaaa5;
 }
+
+.img-container {
+    border: 1px solid #cccccc;
+}
+
+.contact-form {
+    border: 1px solid #cccccc;
+    height: 50%;
+    color: #777777;
+}
+
+
+#fname, #eml {
+    margin-left: 1%;
+    width: 95%;
+}
+
+#msg {
+    margin-left: 1%;
+    width: 95%;
+    height: 60%;
+    
+}
+
+input[type=submit] {
+    margin-left: 1%;
+    margin-top: 1%;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 1%;
+}
+
+/*
+submit {
+    margin-left: 1%;
+}
+
+
+.contact-form {
+    width: 600px;
+    height: 350px;
+    float: left;
+    color: #777777;
+    border: 1px solid #cccccc;
+    margin-top: 5px;
+    background-color: white;
+    padding: 12px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+#msg {
+    height: 200px;
+}
+*/ 
+
+
 
 /* comments
 
