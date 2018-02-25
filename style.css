@@ -83,6 +83,10 @@ input[type=submit] {
     padding: 1%;
 }
 
+.bground1 {
+    background-image: url(../images/ipadicon.png);
+}
+
 /*
 submit {
     margin-left: 1%;
