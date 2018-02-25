@@ -30,6 +30,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5; 
     text-align: center;
+    
 }
 
 .img-links1, .img-links2, .img-links3 {
@@ -41,19 +42,27 @@
     background-image: url("./images/intersection.png")
 }
 
+/*
 .row {
     background-color: white;
 }
+*/
 
 .footer1 {
     background-color: #666666;
     text-align: center;
     color: white;
     border-top: 2px solid #4aaaa5;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    margin: 0;
 }
 
 .img-container {
     border: 1px solid #cccccc;
+    background-color: white;
 }
 
 .contact-form {
@@ -83,9 +92,43 @@ input[type=submit] {
     padding: 1%;
 }
 
-.bground1 {
-    background-image: url(../images/ipadicon.png);
+/*.bground1 {
+    width: 266px;
+    height: 266px;
+    background-image: url("./images/ipadicon.png");
 }
+*/
+
+.col-md-4 img {
+    opacity: 0.8;
+}
+
+.divimg {
+    position: absolute;
+    width: auto;
+    color: white;
+    text-align: center;
+    background: #4aaaa5;
+    bottom: 4%;
+    padding: 3% 15% 3% 15%;
+    margin-left: 5%;
+}
+
+.divimg2 {
+    position: absolute;
+    width: auto;
+    color: white;
+    text-align: center;
+    background: #4aaaa5;
+    bottom: 15%;
+    padding: 3%;
+    margin-left: 2%;
+}
+
+.profpicture img {
+    opacity: 100;
+}
+
 
 /*
 submit {
