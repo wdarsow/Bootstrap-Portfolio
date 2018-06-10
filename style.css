@@ -5,10 +5,10 @@
 }
 
 .navbar-text {
-    background-color: #4aaaa5;
+    background-color: white;
     padding: 1%;
     margin: 1%;
-    color: white;
+    color: rgb(81, 81, 148);
     font-size: 24px;
     text-align: center;
 }
@@ -17,6 +17,7 @@
     color: seagreen !important;
     font-size: 16px;
     margin-top: 1%;
+    padding-right: 2%;
 }
 
 .aboutme1 {
@@ -39,7 +40,7 @@
 }
 
 .container {
-    background-image: url("./images/intersection.png")
+    background-image: url("./images/clouds.jpg")
 }
 
 /*
@@ -49,15 +50,25 @@
 */
 
 .footer1 {
-    background-color: #666666;
+    background-color: rgb(204,228,232);
     text-align: center;
-    color: white;
-    border-top: 2px solid #4aaaa5;
+    color: black;
+    border-top: 2px solid #babbbd;
+    margin-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    /*
     position: fixed;
     width: 100%;
     left: 0;
     bottom: 0;
     margin: 0;
+    */
+}
+
+.footerpad1 {
+    padding-left: 0%;
+    padding-right: 0%;
 }
 
 .img-container {
@@ -128,6 +139,12 @@ input[type=submit] {
 .profpicture img {
     opacity: 100;
 }
+
+
+.emailaddress {
+    font-weight: bold;
+    text-align: center;
+} 
 
 
 /*
