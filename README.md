@@ -18,4 +18,4 @@ A: Please contact me if you need help with my project.
 Q: Who maintains and contributes to the project?   
 A: I am the only person that is currently maintaining and contributing to this project.  
 
-This game has been published to the following URL: https://wdarsow.github.io/TriviaGame/
+This portfolio has been published to the following URL: https://wdarsow.github.io/Bootstrap-Portfolio/
