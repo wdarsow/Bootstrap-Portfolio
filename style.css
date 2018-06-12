@@ -1,11 +1,11 @@
 
 .navbar {
-    background-color: white;
+    background-color: rgb(204,228,232);
     border-bottom: 2px solid #cccccc;
 }
 
 .navbar-text {
-    background-color: white;
+    background-color: whitesmoke;
     padding: 1%;
     margin: 1%;
     color: rgb(81, 81, 148);
@@ -22,14 +22,14 @@
 
 .aboutme1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
+    color: rgb(81, 81, 148);
     border-bottom: 2px solid #cccccc; 
     margin: 1%;
 }
 
 .connect1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5; 
+    color: rgb(81, 81, 148);
     text-align: center;
     
 }
@@ -43,12 +43,6 @@
     background-image: url("./images/clouds.jpg")
 }
 
-/*
-.row {
-    background-color: white;
-}
-*/
-
 .footer1 {
     background-color: rgb(204,228,232);
     text-align: center;
@@ -57,6 +51,7 @@
     margin-bottom: 0%;
     padding-left: 0%;
     padding-right: 0%;
+    padding-bottom: 0%;
     /*
     position: fixed;
     width: 100%;
@@ -73,13 +68,14 @@
 
 .img-container {
     border: 1px solid #cccccc;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .contact-form {
-    border: 1px solid #cccccc;
+    /* border: 1px solid #cccccc; */
     height: 50%;
     color: #777777;
+    margin-bottom: 5%;
 }
 
 
@@ -98,9 +94,13 @@
 input[type=submit] {
     margin-left: 1%;
     margin-top: 1%;
-    color: white;
-    background-color: #4aaaa5;
+    color: black;
+    background-color: lightgray;
     padding: 1%;
+}
+
+.portfolio-projects {
+    padding-left: 3%;
 }
 
 /*.bground1 {
@@ -145,49 +145,3 @@ input[type=submit] {
     font-weight: bold;
     text-align: center;
 } 
-
-
-/*
-submit {
-    margin-left: 1%;
-}
-
-
-.contact-form {
-    width: 600px;
-    height: 350px;
-    float: left;
-    color: #777777;
-    border: 1px solid #cccccc;
-    margin-top: 5px;
-    background-color: white;
-    padding: 12px;
-}
-
-input[type=submit] {
-    background-color: #4aaaa5;
-    padding: 12px;
-    color: white;
-    font-weight: bold;
-}
-
-#msg {
-    height: 200px;
-}
-*/ 
-
-
-
-/* comments
-
-body {
-    background-color: red;
-}
-
-
-
-.about1 {
-    border-right: 1px solid #cccccc;
-}
-
-*/
